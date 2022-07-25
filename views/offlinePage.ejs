@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="imagem/png" href="icoon-512x512.png" />
+    <link rel="shortcut icon" type="imagem/png" href="icon-512x512.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <h1>Offline</h1>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('generate-sw.js');
+        }
+    </script>
+</body>
+</html>

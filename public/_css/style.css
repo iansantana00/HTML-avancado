@@ -1,0 +1,42 @@
+body {
+    background: black;
+    border: 5px solid rgba(149,164,41,0.99);
+    background: #000000 url("icon-256x256.png") no-repeat scroll 100% 0%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    word-spacing: 2px;
+    color: #7f0bad;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    word-spacing: 2px;
+    color: #7f0bad;;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    
+    }
+
+    a {
+        -webkit-box-shadow: 2px 5px 16px 0px #bccda9, -7px 12px 17px 5px rgba(155,56,205,0.61), -7px 12px 17px 5px rgba(155,56,205,0.61); 
+        box-shadow: 2px 5px 16px 0px #bccda9, -7px 12px 17px 5px rgba(155,56,205,0.61), -7px 12px 17px 5px rgba(155,56,205,0.61);
+        }    
+
+h2 {
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 2px rgba(241,233,40,0);
+    color: yellow;
+}
